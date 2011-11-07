@@ -9,6 +9,6 @@ for DIR in $(find . -type d  \( ! -regex '.*/\..*' \) ); do
       grep -v "^\..*/$" |\
       grep -v "^index\.html$"|\
       awk '{ printf "<a href=\"%s\">%s</a>\n",$1,$1 }'
-    echo "</pre>\n</body>\n</html>"
+      echo -e "</pre>\n</body>\n</html>"
   ) > "${DIR}/index.html"
 done
