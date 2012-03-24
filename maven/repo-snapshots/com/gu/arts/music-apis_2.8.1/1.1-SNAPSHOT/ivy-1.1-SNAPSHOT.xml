@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="com.gu.arts" module="music-apis_2.8.1" revision="1.1-SNAPSHOT" status="release" publication="20110609235043"/>
+	<configurations>
+		<conf name="default" visibility="public" description=""/>
+	</configurations>
+	<publications>
+	</publications>
+	<dependencies>
+		<dependency org="com.gu.arts" name="lastfm-api_2.8.1" rev="1.1-SNAPSHOT" conf="default->default(compile)">
+			
+			
+			
+		</dependency>
+		<dependency org="com.gu.arts" name="demo_2.8.1" rev="1.1-SNAPSHOT" conf="default->default(compile)">
+			
+		</dependency>
+	</dependencies>
+</ivy-module>
