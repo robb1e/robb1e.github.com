@@ -1,6 +1,6 @@
 #!/bin/bash
  
-for DIR in $(find . -type d  \( ! -regex '.*/\..*' \) ); do
+for DIR in $(find ./maven -type d  \( ! -regex '.*/\..*' \) ); do
   echo -e "Creating directory listing index.html for "$DIR
   (
     echo  "<html><body><h1>Directory listing</h1><hr/><pre>"
