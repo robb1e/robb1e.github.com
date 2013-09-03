@@ -1,0 +1,30 @@
+@mixin publication_background($handle)
+  background: url("http://res.cloudinary.com/htjx6x6zp/image/twitter_name/c_fill,h_30,w_30/" + $handle + ".png") no-repeat left center
+
+.post
+  padding-top: 20px
+
+  .date
+    font-size: 12px
+    line-height: 20px
+    padding-top: 10px
+
+  .excerpt
+    padding-top: 10px
+
+  h2.title
+    padding-left: 40px
+    a
+      color: $black
+
+  &.pivotal
+    h2
+      @include publication_background('pivotallabs')
+
+  &.guardian
+    h2
+      @include publication_background('guardian')
+
+  &.personal
+    h2
+      @include publication_background('robb1e')

@@ -1,0 +1,12 @@
+section.blog
+  - posts.each do |post|
+    article.post class="#{post.publication}"
+      h2.title= link_to post.title, post.uri
+      .date= post.date
+      .excerpt= post.excerpt
+
+section.presentations
+  h1 Presentations
+  - talks.each do |talk|
+    p= link_to talk.title, "/talk/#{talk.slug}"
+
