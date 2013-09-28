@@ -5,8 +5,8 @@ section.blog
       .date= post.date
       .excerpt= post.excerpt
 
-section.presentations
+section.Presentations__list
   h1 Presentations
   - talks.each do |talk|
-    p= link_to talk.title, "/talk/#{talk.slug}"
+    p.Presentations__presentation--link= link_to "#{talk.title} @ #{talk.location}", "/talk/#{talk.slug}"
 
