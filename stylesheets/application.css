@@ -1,4 +1,4 @@
-/* line 1, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_reset.sass */
+/* line 1, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_reset.sass */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -7,33 +7,33 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   font: inherit;
   vertical-align: baseline; }
 
-/* line 9, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_reset.sass */
+/* line 9, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_reset.sass */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block; }
 
-/* line 12, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_reset.sass */
+/* line 12, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_reset.sass */
 body {
   line-height: 1; }
 
-/* line 15, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_reset.sass */
+/* line 15, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_reset.sass */
 ol, ul {
   list-style: none; }
 
-/* line 18, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_reset.sass */
+/* line 18, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_reset.sass */
 blockquote, q {
   quotes: none; }
 
-/* line 22, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_reset.sass */
+/* line 22, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_reset.sass */
 blockquote:before, blockquote:after {
   content: "";
   content: none; }
 
-/* line 27, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_reset.sass */
+/* line 27, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_reset.sass */
 q:before, q:after {
   content: "";
   content: none; }
 
-/* line 31, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_reset.sass */
+/* line 31, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_reset.sass */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
@@ -54,7 +54,7 @@ table {
   font-weight: 300;
   src: local("Merriweather Light"), local("Merriweather-Light"), url(http://themes.googleusercontent.com/static/fonts/merriweather/v5/ZvcMqxEwPfh2qDWBPxn6nmB7wJ9CoPCp9n30ZBThZ1I.woff) format("woff"); }
 
-/* line 1, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_layout.sass */
+/* line 1, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_layout.sass */
 .container {
   overflow: hidden;
   *zoom: 1;
@@ -64,7 +64,7 @@ table {
   background: white;
   padding: 20px 0; }
 
-/* line 6, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_layout.sass */
+/* line 6, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_layout.sass */
 body {
   background: white;
   font-family: "Merriweather", "Helvetica Neue", "Helvetica", "Arial";
@@ -73,7 +73,7 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility; }
 
-/* line 14, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_layout.sass */
+/* line 14, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_layout.sass */
 .social {
   display: block;
   float: left;
@@ -83,7 +83,7 @@ body {
   .social:last-child {
     margin-right: 0; }
 
-/* line 17, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_layout.sass */
+/* line 17, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_layout.sass */
 .blog {
   display: block;
   float: left;
@@ -93,7 +93,7 @@ body {
   .blog:last-child {
     margin-right: 0; }
 
-/* line 20, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_layout.sass */
+/* line 20, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_layout.sass */
 .presentations {
   display: block;
   float: left;
@@ -103,7 +103,7 @@ body {
   .presentations:last-child {
     margin-right: 0; }
 
-/* line 23, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_layout.sass */
+/* line 23, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_layout.sass */
 .talk {
   display: block;
   float: left;
@@ -114,97 +114,108 @@ body {
   .talk:last-child {
     margin-right: 0; }
 
-/* line 28, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_layout.sass */
-header h1, header .icons {
+/* line 27, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_layout.sass */
+header {
   display: block;
   float: left;
   margin-right: 2.35765%;
-  width: 48.82117%; }
+  width: 100%;
+  padding: 1em 0; }
   /* line 33, /Users/robb1e/.rvm/gems/ruby-2.0.0-head/gems/neat-1.4.0/app/assets/stylesheets/grid/_span-columns.scss */
-  header h1:last-child, header .icons:last-child {
+  header:last-child {
     margin-right: 0; }
-/* line 32, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_layout.sass */
-header .icons a {
-  width: 32px;
-  height: 32px;
-  float: right;
-  margin-right: 5px; }
-/* line 38, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_layout.sass */
-header .icons #linkedin {
-  background-position: 0 -192px; }
-/* line 41, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_layout.sass */
-header .icons #twitter {
-  background-position: 0 -96px; }
-/* line 44, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_layout.sass */
-header .icons #flickr {
-  background-position: 0 -160px; }
-/* line 47, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_layout.sass */
-header .icons #instagram {
-  background-position: 0 0; }
-/* line 50, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_layout.sass */
-header .icons #lastfm {
-  background-position: 0 -128px; }
-/* line 53, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_layout.sass */
-header .icons #github {
-  background-position: 0 -32px; }
-/* line 56, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_layout.sass */
-header .icons #foursquare {
-  background-position: 0 -64px; }
-/* line 59, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_layout.sass */
-header .icons #blogger {
-  background-position: 0 -224px; }
+  /* line 31, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_layout.sass */
+  header h1, header .icons {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    /* line 33, /Users/robb1e/.rvm/gems/ruby-2.0.0-head/gems/neat-1.4.0/app/assets/stylesheets/grid/_span-columns.scss */
+    header h1:last-child, header .icons:last-child {
+      margin-right: 0; }
+  /* line 35, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_layout.sass */
+  header .icons a {
+    width: 32px;
+    height: 32px;
+    float: right;
+    margin-right: 5px; }
+  /* line 41, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_layout.sass */
+  header .icons #linkedin {
+    background-position: 0 -192px; }
+  /* line 44, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_layout.sass */
+  header .icons #twitter {
+    background-position: 0 -96px; }
+  /* line 47, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_layout.sass */
+  header .icons #flickr {
+    background-position: 0 -160px; }
+  /* line 50, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_layout.sass */
+  header .icons #instagram {
+    background-position: 0 0; }
+  /* line 53, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_layout.sass */
+  header .icons #lastfm {
+    background-position: 0 -128px; }
+  /* line 56, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_layout.sass */
+  header .icons #github {
+    background-position: 0 -32px; }
+  /* line 59, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_layout.sass */
+  header .icons #foursquare {
+    background-position: 0 -64px; }
+  /* line 62, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_layout.sass */
+  header .icons #blogger {
+    background-position: 0 -224px; }
 
-/* line 1, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_type.sass */
+/* line 1, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_type.sass */
 h1 {
   font-size: 24px;
   line-height: 30px; }
 
-/* line 5, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_type.sass */
+/* line 5, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_type.sass */
 h2 {
   font-size: 20px;
   line-height: 24px; }
 
-/* line 9, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_type.sass */
+/* line 9, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_type.sass */
 a {
-  text-decoration: none;
-  color: black; }
-  /* line 13, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_type.sass */
-  a:hover, a:visited {
-    color: black; }
-  /* line 16, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_type.sass */
+  color: black;
+  text-decoration: none; }
+  /* line 13, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_type.sass */
   a:hover {
     text-decoration: underline; }
+  /* line 16, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_type.sass */
+  a:visited {
+    color: black; }
 
-/* line 4, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_blog.sass */
+/* line 4, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_blog.sass */
 .post {
   padding-top: 20px; }
-  /* line 7, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_blog.sass */
+  /* line 7, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_blog.sass */
   .post .date {
     font-size: 12px;
     line-height: 20px;
     padding-top: 10px; }
-  /* line 12, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_blog.sass */
+  /* line 12, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_blog.sass */
   .post .excerpt {
     padding-top: 10px; }
-  /* line 15, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_blog.sass */
+  /* line 15, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_blog.sass */
   .post h2.title {
     padding-left: 40px; }
-    /* line 17, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_blog.sass */
+    /* line 17, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_blog.sass */
     .post h2.title a {
       color: black; }
-  /* line 21, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_blog.sass */
+  /* line 21, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_blog.sass */
   .post.pivotal h2 {
     background: url("http://res.cloudinary.com/htjx6x6zp/image/twitter_name/c_fill,h_30,w_30/pivotallabs.png") no-repeat left center; }
-  /* line 25, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_blog.sass */
+  /* line 25, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_blog.sass */
   .post.guardian h2 {
     background: url("http://res.cloudinary.com/htjx6x6zp/image/twitter_name/c_fill,h_30,w_30/guardian.png") no-repeat left center; }
-  /* line 29, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_blog.sass */
+  /* line 29, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_blog.sass */
   .post.personal h2 {
     background: url("http://res.cloudinary.com/htjx6x6zp/image/twitter_name/c_fill,h_30,w_30/robb1e.png") no-repeat left center; }
 
-/* line 1, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_presentation.sass */
-.presentations {
-  padding: 20px 0; }
-  /* line 4, /Users/robb1e/workspace/robb1e.com_2/source/stylesheets/_presentation.sass */
-  .presentations .presentation {
-    padding: 10px 0; }
+/* line 1, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/objects/presentations.sass */
+.Presentations__list {
+  padding: 2em 0; }
+
+/* line 4, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/objects/presentations.sass */
+.Presentations__presentation--link {
+  padding: 0.5em 0; }
