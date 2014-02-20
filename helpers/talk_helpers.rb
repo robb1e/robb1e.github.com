@@ -44,6 +44,12 @@ module TalkHelpers
         location: 'Hacks and Hackers meetup',
         slug: 'api-patterns-and-practices',
         deck_embed: '<iframe src="http://www.slideshare.net/slideshow/embed_code/13026910" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""> </iframe>'
+      ),
+      Talk.new(
+        title: 'Callflow',
+        location: 'Osmosoft Show and Tell, 2008',
+        slug: 'callflow',
+        video_embed: '<iframe src="//player.vimeo.com/video/1013723" width="500" height="282" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/1013723">Robbie Clutton presents...Call Flow</a> from <a href="http://vimeo.com/user423727">Phil Whitehouse</a> on <a href="https://vimeo.com">Vimeo</a>.</p>'
       )
     ]
   end

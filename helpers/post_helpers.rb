@@ -6,6 +6,20 @@ module PostHelpers
   def posts
     [
       Post.new(
+        title: 'Spring 4 MVC with Scala',
+        publication: 'pivotal',
+        date: '9th February, 2014',
+        uri: 'http://pivotallabs.com/spring-4-mvc-scala/',
+        excerpt: 'In my previous job at The Guardian I used Scala on various projects and enjoyed it. We employed various dependency injection (DI) frameworks from Spring, Guice and a lightweight homegrow version. Now I’m at Pivotal Labs Spring is part of the family and some recent JVM projects combined with the recent release of Spring 4 means we’ve been looking at how these tools can help our clients.'
+      ),
+      Post.new(
+        title: 'Discovery and framing: Design studio',
+        publication: 'pivotal',
+        date: '20th September, 2013',
+        uri: 'http://pivotallabs.com/discovery-and-framing-design-studio/',
+        excerpt: '‘Design studio’ is a simple exercise that can help derive workflows, surface new ideas, and help create a better understanding of the application and the problem at hand. It all starts with framing the problem the team is trying to solve…'
+      ),
+      Post.new(
         title: 'Pivotstrap – building SASS libraries for Rails apps',
         publication: 'pivotal',
         date: '29th July, 2013',
