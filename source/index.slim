@@ -1,5 +1,6 @@
 section.blog
-  - posts.each do |post|
+  h1 Recent posts
+  - posts.take(4).each do |post|
     article.post class="#{post.publication}"
       h2.title= link_to post.title, post.uri, target: '_blank'
       .date= post.date
