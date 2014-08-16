@@ -1,63 +1,7 @@
-.container
-  @include outer-container
-  background: $white
-  padding: 20px 0
-
-body
-  background: $white
-  font-family: "Helvetica Neue", "Helvetica", "Arial"
-  font-size: 14px
-  line-height: 18px
-  -webkit-font-smoothing: antialiased
-  text-rendering: optimizeLegibility
-
-.social
-  @include span-columns(3)
-
-.blog
-  @include span-columns(9)
-
-.presentations
-  @include span-columns(3)
-
-.talk
-  @include span-columns(12)
-  padding: 2em 0
-
-header
+header.old
   @include span-columns(12)
   padding: 1em 0
 
   h1, .icons
     @include span-columns(6)
 
-  .icons
-    a
-      width: 32px
-      height: 32px
-      float: right
-      margin-right: 5px
-
-    #linkedin
-      @include icons-sprite(linkedin)
-
-    #twitter
-      @include icons-sprite(twitter)
-
-    #flickr
-      @include icons-sprite(flickr)
-
-    #instagram
-      @include icons-sprite(instagram)
-
-    #lastfm
-      @include icons-sprite(lastfm)
-
-    #github
-      @include icons-sprite(github)
-
-    #foursquare
-      @include icons-sprite(foursquare)
-
-    #blogger
-      @include icons-sprite(blogger)

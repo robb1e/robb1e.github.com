@@ -1,0 +1,14 @@
+header
+  @include outer-container
+  border-bottom: 1px solid $lightgray
+
+  h1, nav
+    @include span-columns(6)
+    margin: 20px 0
+
+  nav
+    margin-top: 25px
+    ul
+      li
+        float: right
+        padding: 0 5px
