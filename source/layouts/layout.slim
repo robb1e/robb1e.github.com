@@ -13,17 +13,23 @@ html
     == javascript_include_tag  "all"
 
   body
+    header
+      h1= link_to 'robb1e dot com', '/'
+      nav
+        ul.nav
+          li= link_to 'contact', '/contact'
+          li= link_to 'speaking', '/talk'
+          li= link_to 'blog', '/blog'
     .container
-      header
-        h1= link_to 'robb1e dot com', '/'
-        .icons
-          a href='http://last.fm/user/robbieclutton' id='lastfm'
-          a href='http://foursquare.com/robb1e' id='foursquare'
-          a href='http://instagram.com/robb1e' id='instagram'
-          a href='http://flickr.com/photos/robbies' id='flickr'
-          a href='http://blog.iclutton.com' id='blogger'
-          a href='http://github.com/robb1e' id='github'
-          a href='http://www.linkedin.com/in/robbieclutton' id='linkedin'
-          a href='http://twitter.com/robb1e' id='twitter'
       = yield
+    footer
+      .icons
+        a href='http://twitter.com/robb1e' id='twitter'
+        a href='http://www.linkedin.com/in/robbieclutton' id='linkedin'
+        a href='http://github.com/robb1e' id='github'
+        a href='http://blog.iclutton.com' id='blogger'
+        a href='http://flickr.com/photos/robbies' id='flickr'
+        a href='http://instagram.com/robb1e' id='instagram'
+        a href='http://foursquare.com/robb1e' id='foursquare'
+        a href='http://last.fm/user/robbieclutton' id='lastfm'
 
