@@ -15,7 +15,7 @@ require 'helpers/talk_helpers'
 helpers TalkHelpers
 
 # Reload the browser automatically whenever files change
-# activate :livereload
+activate :livereload
 
 ###
 # Page options, layouts, aliases and proxies
@@ -55,6 +55,9 @@ set :images_dir, 'images'
 
 # Build-specific configuration
 configure :build do
+
+  activate :directory_indexes
+
   # For example, change the Compass output style for deployment
   # activate :minify_css
 
