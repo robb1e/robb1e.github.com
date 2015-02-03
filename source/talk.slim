@@ -2,4 +2,7 @@ section.talk
   h1= talk.title
 
   .deck= talk.deck_embed
-  .video= talk.video_embed
+  .video
+    span= talk.video_embed
+    - if talk.video_url
+      = link_to "Watch the video", talk.video_url

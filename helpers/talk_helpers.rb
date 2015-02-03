@@ -6,6 +6,13 @@ module TalkHelpers
   def talks
     [
       Talk.new(
+        title: "Who's afraid of database views",
+        location: 'Skills Matter, London',
+        slug: 'whos-afraid-of-database-views-skillsmatter',
+        video_url: 'https://skillsmatter.com/skillscasts/6127-whos-afraid-of-database-views',
+        deck_embed: '<script async class="speakerdeck-embed" data-id="647db6007d22013209061a318efffb4d" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>'
+      ),
+      Talk.new(
         title: 'Prototyping and agile development',
         location: 'Denver Startup Week 2013',
         slug: 'prototyping-and-agile-development-pivotal-boulder',

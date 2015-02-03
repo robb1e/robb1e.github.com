@@ -14,6 +14,9 @@
 require 'helpers/talk_helpers'
 helpers TalkHelpers
 
+require 'helpers/post_helpers'
+helpers PostHelpers
+
 # Reload the browser automatically whenever files change
 activate :livereload
 
