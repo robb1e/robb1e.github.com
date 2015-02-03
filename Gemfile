@@ -5,6 +5,7 @@ source 'http://rubygems.org'
 gem "middleman", "~>3.1.4"
 gem "middleman-bourbon"
 gem "middleman-neat"
+gem 'middleman-gh-pages'
 gem "slim", "~> 2.0.0"
 
 # Live-reloading plugin
