@@ -6,6 +6,27 @@ module PostHelpers
   def posts
     [
       Post.new(
+        title: 'The Silicon Valley state of mind: New world, new mind-set',
+        publication: 'itproportal',
+        date: '29th April, 2016',
+        uri: 'http://www.itproportal.com/2016/04/29/the-silicon-valley-state-of-mind-new-world-new-mind-set/',
+        excerpt: 'Change is the only constant; get over it. That’s the message being shared with enterprises both old and new.'
+      ),
+      Post.new(
+        title: 'How companies can embrace the Silicon Valley state of mind to really drive digital transformation',
+        publication: 'informationage',
+        date: '29th April, 2016',
+        uri: 'http://www.information-age.com/it-management/strategy-and-innovation/123461360/how-companies-can-embrace-silicon-valley-state-mind-really-drive-digital-transformation',
+        excerpt: "Digital transformation' isn't just corporate jargon: it's a whole new way of thinking for most businesses, in order to push towards a more collaborative and unified approach"
+      ),
+      Post.new(
+        title: "S'adapter à la culture 'Silicon Valley' ou mourir",
+        publication: 'lesechos',
+        date: '27th April, 2016',
+        uri: 'http://www.lesechos.fr/idees-debats/cercle/cercle-156556-letat-desprit-silicon-valley-nouveau-monde-nouvelle-mentalite-1217881.php#xtor=CS1-33',
+        excerpt: "La révolution digitale a bouleversé notre monde, brisant au passage les codes qui ont servi de fondations aux entreprises. Refuser de s'adapter, c'est hypothéquer ses chances de survie."
+      ),
+      Post.new(
         title: 'Spring 4 MVC with Scala',
         publication: 'pivotal',
         date: '9th February, 2014',
