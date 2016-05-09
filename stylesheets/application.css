@@ -44,9 +44,9 @@ table {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 98, icons/*.png */
+/* line 114, icons/*.png */
 .icons-sprite, footer .icons #linkedin, footer .icons #twitter, footer .icons #flickr, footer .icons #instagram, footer .icons #lastfm, footer .icons #github, footer .icons #foursquare, footer .icons #blogger {
-  background: url("/images/icons-sc9b6681519.png") no-repeat; }
+  background: url("/images/icons-sb896b42592.png") no-repeat; }
 
 /* line 1, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/layout/_containers.sass */
 .container {
@@ -108,28 +108,28 @@ footer {
     margin: 10px 5px 10px 0; }
   /* line 12, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/layout/_footer.sass */
   footer .icons #linkedin {
-    background-position: 0 -192px; }
+    background-position: 0 -508px; }
   /* line 15, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/layout/_footer.sass */
   footer .icons #twitter {
-    background-position: 0 -96px; }
+    background-position: 0 -412px; }
   /* line 18, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/layout/_footer.sass */
   footer .icons #flickr {
-    background-position: 0 -160px; }
+    background-position: 0 -476px; }
   /* line 21, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/layout/_footer.sass */
   footer .icons #instagram {
-    background-position: 0 0; }
+    background-position: 0 -316px; }
   /* line 24, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/layout/_footer.sass */
   footer .icons #lastfm {
-    background-position: 0 -128px; }
+    background-position: 0 -444px; }
   /* line 27, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/layout/_footer.sass */
   footer .icons #github {
-    background-position: 0 -32px; }
+    background-position: 0 -348px; }
   /* line 30, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/layout/_footer.sass */
   footer .icons #foursquare {
-    background-position: 0 -64px; }
+    background-position: 0 -380px; }
   /* line 33, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/layout/_footer.sass */
   footer .icons #blogger {
-    background-position: 0 -224px; }
+    background-position: 0 -540px; }
 
 /* line 1, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/layout/_sections.sass */
 .social {
@@ -219,6 +219,15 @@ a {
   /* line 29, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_blog.sass */
   .post.personal h2 {
     background: url("http://res.cloudinary.com/htjx6x6zp/image/twitter_name/c_fill,h_30,w_30/robb1e.png") no-repeat left center; }
+  /* line 33, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_blog.sass */
+  .post.itproportal h2 {
+    background: url("http://res.cloudinary.com/htjx6x6zp/image/twitter_name/c_fill,h_30,w_30/itproportal.png") no-repeat left center; }
+  /* line 37, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_blog.sass */
+  .post.informationage h2 {
+    background: url("http://res.cloudinary.com/htjx6x6zp/image/twitter_name/c_fill,h_30,w_30/informationage.png") no-repeat left center; }
+  /* line 41, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/_blog.sass */
+  .post.lesechos h2 {
+    background: url("http://res.cloudinary.com/htjx6x6zp/image/twitter_name/c_fill,h_30,w_30/lesechos.png") no-repeat left center; }
 
 /* line 1, /Users/robb1e/workspace/robb1e.github.com/source/stylesheets/objects/presentations.sass */
 .Presentations__presentation--link {
