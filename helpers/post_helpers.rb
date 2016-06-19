@@ -6,6 +6,13 @@ module PostHelpers
   def posts
     [
       Post.new(
+        title: 'The unbearable lightness of innovation: Are businesses heading for an existential crisis?',
+        publication: 'freshbusiness',
+        date: '15th June, 2016',
+        uri: 'http://www.freshbusinessthinking.com/are-businesses-heading-for-an-existential-crisis/',
+        excerpt: 'The market now favours a proactive approach: more than ever risk equals reward and fear of failure is being replaced by ‘hope’; an optimism for growth, innovation, and transformation. Businesses are no longer constrained by the ‘art of the possible’; compromise and practicality is out, new thinking and expanding horizons are in.'
+      ),
+      Post.new(
         title: 'The Silicon Valley state of mind: New world, new mind-set',
         publication: 'itproportal',
         date: '29th April, 2016',
