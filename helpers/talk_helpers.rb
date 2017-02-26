@@ -6,6 +6,12 @@ module TalkHelpers
   def talks
     [
       Talk.new(
+        title: "Transformation anti-patterns",
+        location: "Pivotal, London",
+        slug: 'transformation-anti-patterns',
+        video_url: 'https://docs.google.com/drawings/d/1NahcIP7OGsalJ3SoF7HGqn4y8G4tM5UALQvLMZNGEwE/edi://www.youtube.com/watch?v=xXddYYoDc44&index=11&list=PLAdzTan_eSPQKVIkTqwZNn9PwQBL4juS6'
+      ),
+      Talk.new(
         title: "Who's afraid of database views",
         location: 'Skills Matter, London',
         slug: 'whos-afraid-of-database-views-skillsmatter',
